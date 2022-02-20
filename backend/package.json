@@ -1,0 +1,26 @@
+{
+  "name": "bacend-shoping-cart-face-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm -r dotenv/config index.js"
+  },
+  "keywords": [],
+  "author": "Gurgen Mkrtchyan",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@types/stripe": "^8.0.417",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.2",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "nodemon": "^2.0.15",
+    "stripe": "^8.202.0"
+  }
+}
